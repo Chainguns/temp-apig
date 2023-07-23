@@ -56,7 +56,8 @@ paths:
       tags:
       - pet
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-codegen-request-body-name: body
       x-openapi-router-controller: openapi_server.controllers.pet_controller
     put:
@@ -88,7 +89,8 @@ paths:
       tags:
       - pet
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-codegen-request-body-name: body
       x-openapi-router-controller: openapi_server.controllers.pet_controller
   /pet/findByStatus:
@@ -135,7 +137,8 @@ paths:
       tags:
       - pet
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.pet_controller
   /pet/findByTags:
     get:
@@ -177,7 +180,8 @@ paths:
       tags:
       - pet
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.pet_controller
   /pet/{petId}:
     delete:
@@ -208,7 +212,8 @@ paths:
       tags:
       - pet
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.pet_controller
     get:
       description: Returns a single pet
@@ -244,7 +249,8 @@ paths:
       tags:
       - pet
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.pet_controller
     post:
       operationId: update_pet_with_form
@@ -272,7 +278,8 @@ paths:
       tags:
       - pet
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.pet_controller
   /pet/{petId}/uploadImage:
     post:
@@ -304,7 +311,8 @@ paths:
       tags:
       - pet
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.pet_controller
   /store/inventory:
     get:
@@ -327,7 +335,8 @@ paths:
       tags:
       - store
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.store_controller
   /store/order:
     post:
@@ -356,7 +365,8 @@ paths:
       tags:
       - store
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-codegen-request-body-name: body
       x-openapi-router-controller: openapi_server.controllers.store_controller
   /store/order/{orderId}:
@@ -384,7 +394,8 @@ paths:
       tags:
       - store
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.store_controller
     get:
       description: For valid response try integer IDs with value >= 1 and <= 10. Other
@@ -420,7 +431,8 @@ paths:
       tags:
       - store
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.store_controller
   /user:
     post:
@@ -441,7 +453,8 @@ paths:
       tags:
       - user
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-codegen-request-body-name: body
       x-openapi-router-controller: openapi_server.controllers.user_controller
   /user/createWithArray:
@@ -464,7 +477,8 @@ paths:
       tags:
       - user
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-codegen-request-body-name: body
       x-openapi-router-controller: openapi_server.controllers.user_controller
   /user/createWithList:
@@ -490,7 +504,8 @@ paths:
       tags:
       - user
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-codegen-request-body-name: body
       x-openapi-router-controller: openapi_server.controllers.user_controller
   /user/login:
@@ -537,7 +552,8 @@ paths:
       tags:
       - user
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.user_controller
   /user/logout:
     get:
@@ -550,7 +566,8 @@ paths:
       tags:
       - user
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.user_controller
   /user/{username}:
     delete:
@@ -574,7 +591,8 @@ paths:
       tags:
       - user
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.user_controller
     get:
       operationId: get_user_by_name
@@ -605,7 +623,8 @@ paths:
       tags:
       - user
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-openapi-router-controller: openapi_server.controllers.user_controller
     put:
       description: This can only be done by the logged in user.
@@ -635,7 +654,8 @@ paths:
       tags:
       - user
       x-google-backend:
-        address: vmi1277668.contaboserver.net
+        address: https://a387-173-212-230-242.ngrok-free.app
+        path_translation: APPEND_PATH_TO_ADDRESS
       x-codegen-request-body-name: body
       x-openapi-router-controller: openapi_server.controllers.user_controller
 components:
